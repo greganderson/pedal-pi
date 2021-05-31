@@ -5,7 +5,7 @@ from socket import *
 
 GPIO.setmode(GPIO.BCM)
 
-button = 23
+button = 17
 GPIO.setup(button, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 last_state = 1
